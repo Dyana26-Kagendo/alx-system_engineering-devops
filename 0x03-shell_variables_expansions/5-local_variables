@@ -1,2 +1,2 @@
 #!/bin/bash
-env compgen -A variable -A function
+env 
