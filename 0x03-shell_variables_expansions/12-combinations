@@ -1,2 +1,2 @@
 #!/bin/bash
-eval echo {a..z}{a..z} |tr -d " oo"
+eval echo {a..z}{a..z} |tr -c '\n' " oo"
